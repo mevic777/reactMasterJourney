@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+   font-family: 'Inter', sans-serif;
+   font-weight: 400;
+}
+
+nav {
+   display: flex;
+   height: 70px;
+   padding: 20px 36px;
+   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.logoNavbar {
+   width: 90px;
+}
+
+.logoNavbar>img {
+   width: 100%;
+}
+
+.hero .h1 {
+   font-size: 36px;
+   font-weight: 700;
+}
+
+.paragraph {
+   width: 320px;
+}
+
+.hero .p {
+   font-size: 16px;
+}
+
+.cardImage {
+   position: relative;
+}
+
+.cardStatus {
+   background-color: white;
+   color: black;
+   position: absolute;
+   top: 2%;
+   left: 0.5%;
+   border-radius: 10px;
+   padding: 0px 6px 0px 6px;
+}
+
+.cardReview {
+   display: flex;
+   align-items: center;
+}
+
+.cardReview img {
+   object-fit: contain;
+   margin-right: 2px;
+}
+
+.cardReview>p>span {
+   color: #918E9B;
+}
+
+.cardStatus p {
+   font-size: 10px;
+}
+
+.cardPrice>p>span {
+   font-weight: 600;
+}
